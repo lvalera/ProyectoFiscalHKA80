@@ -1,10 +1,10 @@
 import requests
 import json
 
-api_url = "http://192.168.68.108:5000/invoice"  # IP de la máquina con la impresora
+api_url = "http://192.168.68.109:5000/invoice"  # IP de la máquina con la impresora
 
 invoice_data = {
-    "customer_data": {"rif": "V-12345678", "name": "Prueba API Python"},
+    "customer_data": {"rif": "V-12345678", "name": "Pedro Perez"},
     "items": [
         {
             "desc": "Producto API",
